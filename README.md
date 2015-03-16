@@ -1,0 +1,2 @@
+# Primitiva
+Tareas de algoritmos
