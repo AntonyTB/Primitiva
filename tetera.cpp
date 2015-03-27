@@ -12,7 +12,7 @@ void init(void)
 {
 glEnable(GL_LIGHTING);
 glEnable(GL_LIGHT0); //Activamos las luces en 0
-glDepthFunc(GL_LESS); //comparación de profundidad
+glDepthFunc(GL_LESS); //comparaciÃ³n de profundidad
 glEnable(GL_DEPTH_TEST); //activa GL_DEPTH_TEST
 }
 
@@ -127,22 +127,11 @@ void keyboard(unsigned char key, int x, int y)
   mat_specular3=0.306678;
   shin=shin;
   break;
-  case 'n': // Volver al inicial
-  mat_ambient1=0.329412;
-  mat_ambient1=0.223529;
-  mat_ambient1=0.027451;
-  mat_diffuse2=0.780392;
-  mat_diffuse2=0.568627;
-  mat_diffuse2=0.113725;
-  mat_specular1=0.992157;
-  mat_specular1=0.941176;
-  mat_specular1=0.807843;
-  shin=shin;
-  break;
+  
   case 27: // 27 es Esc
   exit(0); // Sale del programa
   }
-  glutPostRedisplay(); // actualización de visualización
+  glutPostRedisplay(); // actualizaciÃ³n de visualizaciÃ³n
      }
   
   int main(int argc, char **argv)
